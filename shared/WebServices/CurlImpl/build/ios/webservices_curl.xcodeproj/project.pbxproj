@@ -172,7 +172,7 @@
 				HEADER_SEARCH_PATHS = (
 					../../,
 					../../../../Utils/,
-					"../../../../../thirdparty/libcurl/7.28.1/include/**",
+					"../../../../../thirdparty/libcurl/7.36.0/include/**",
 					../../../../../thirdparty/ThreadPool,
 					../../../Interface,
 				);
@@ -207,7 +207,7 @@
 				HEADER_SEARCH_PATHS = (
 					../../,
 					../../../../Utils/,
-					"../../../../../thirdparty/libcurl/7.28.1/include/**",
+					"../../../../../thirdparty/libcurl/7.36.0/include/**",
 					../../../../../thirdparty/ThreadPool,
 					../../../Interface,
 				);

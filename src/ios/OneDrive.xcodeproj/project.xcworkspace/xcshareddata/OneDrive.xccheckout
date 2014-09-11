@@ -5,43 +5,53 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>61544C37-3105-487C-BAAC-0779D7E41663</string>
+	<string>CE1D479C-B322-4345-BE61-B8803FA22A6E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>OneDrive</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
-		<string>http://onedrive.unfuddle.com/svn/onedrive_od</string>
+		<key>ABDC7B53-14B6-4169-88BE-97FD122A7AC0</key>
+		<string>https://photojourney.unfuddle.com/svn/photojourney_photojourney</string>
+		<key>E3E80B64-FB36-4317-AECB-81E6631A2C96</key>
+		<string>https://github.com/gsrivast31/OneBox.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>trunk2/src/ios/OneDrive.xcodeproj/project.xcworkspace</string>
+	<string>OneDrive/src/ios/OneDrive.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
+		<key>ABDC7B53-14B6-4169-88BE-97FD122A7AC0</key>
 		<string>../../../../..</string>
+		<key>E3E80B64-FB36-4317-AECB-81E6631A2C96</key>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectRepositoryRootDictionary</key>
 	<dict>
-		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
-		<string>http://onedrive.unfuddle.com/svn/onedrive_od</string>
+		<key>ABDC7B53-14B6-4169-88BE-97FD122A7AC0</key>
+		<string>https://photojourney.unfuddle.com/svn/photojourney_photojourney</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>http://onedrive.unfuddle.com/svn/onedrive_od/trunk2/src/ios/OneDrive.xcodeproj</string>
+	<string>https://github.com/gsrivast31/OneBox.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</string>
+	<string>ABDC7B53-14B6-4169-88BE-97FD122A7AC0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.subversion</string>
-			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
-			<string>trunk</string>
+			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</string>
+			<string>E3E80B64-FB36-4317-AECB-81E6631A2C96</string>
 			<key>IDESourceControlWCCName</key>
-			<string>work_onedrive</string>
+			<string>OneDrive</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ABDC7B53-14B6-4169-88BE-97FD122A7AC0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>work</string>
 		</dict>
 	</array>
 </dict>

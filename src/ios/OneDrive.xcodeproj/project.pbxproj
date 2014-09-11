@@ -54,8 +54,6 @@
 		6814F60616F78E5F008CE1EB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F60516F78E5F008CE1EB /* libsqlite3.dylib */; };
 		6814F62C16F78EC1008CE1EB /* libAccountServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F62416F78EA6008CE1EB /* libAccountServices.a */; };
 		6814F62D16F78EC5008CE1EB /* libDriveController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F61416F78E8C008CE1EB /* libDriveController.a */; };
-		6814F63216F78EF5008CE1EB /* libcurl-device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F63016F78EF5008CE1EB /* libcurl-device.a */; };
-		6814F63316F78EF5008CE1EB /* libcurl-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F63116F78EF5008CE1EB /* libcurl-simulator.a */; };
 		6814F64416F78F64008CE1EB /* libShareServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F63F16F78F4D008CE1EB /* libShareServices.a */; };
 		6814F64516F78F67008CE1EB /* libwebservices_curl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F63916F78F40008CE1EB /* libwebservices_curl.a */; };
 		6814F6D316F78F82008CE1EB /* application-illustrator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6814F64716F78F82008CE1EB /* application-illustrator.png */; };
@@ -242,6 +240,7 @@
 		68D03E9A171B2DB400231933 /* list-square-mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D03E96171B2DB400231933 /* list-square-mini@2x.png */; };
 		68D03E9D171B358800231933 /* gear-mini.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D03E9B171B358700231933 /* gear-mini.png */; };
 		68D03E9E171B358800231933 /* gear-mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D03E9C171B358700231933 /* gear-mini@2x.png */; };
+		F44CC5D119C1FD870048246B /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44CC5D019C1FD870048246B /* libcurl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -373,8 +372,6 @@
 		6814F60516F78E5F008CE1EB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		6814F60816F78E8B008CE1EB /* DriveController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DriveController.xcodeproj; sourceTree = "<group>"; };
 		6814F61616F78EA5008CE1EB /* AccountServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AccountServices.xcodeproj; path = ../../shared/AccountService/build/ios/AccountServices.xcodeproj; sourceTree = "<group>"; };
-		6814F63016F78EF5008CE1EB /* libcurl-device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcurl-device.a"; path = "../../thirdparty/libcurl/7.28.1/lib/ios/libcurl-device.a"; sourceTree = "<group>"; };
-		6814F63116F78EF5008CE1EB /* libcurl-simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcurl-simulator.a"; path = "../../thirdparty/libcurl/7.28.1/lib/ios/libcurl-simulator.a"; sourceTree = "<group>"; };
 		6814F63416F78F3F008CE1EB /* webservices_curl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = webservices_curl.xcodeproj; path = ../../shared/WebServices/CurlImpl/build/ios/webservices_curl.xcodeproj; sourceTree = "<group>"; };
 		6814F63A16F78F4D008CE1EB /* ShareServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShareServices.xcodeproj; path = ../../shared/ShareServices/build/ios/ShareServices.xcodeproj; sourceTree = "<group>"; };
 		6814F64716F78F82008CE1EB /* application-illustrator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-illustrator.png"; sourceTree = "<group>"; };
@@ -592,6 +589,7 @@
 		68D03E96171B2DB400231933 /* list-square-mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list-square-mini@2x.png"; sourceTree = "<group>"; };
 		68D03E9B171B358700231933 /* gear-mini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-mini.png"; sourceTree = "<group>"; };
 		68D03E9C171B358700231933 /* gear-mini@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-mini@2x.png"; sourceTree = "<group>"; };
+		F44CC5D019C1FD870048246B /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../thirdparty/libcurl/7.36.0/lib/ios/libcurl.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -602,8 +600,6 @@
 				35D54D8517508F910093842B /* MobileCoreServices.framework in Frameworks */,
 				6814F64516F78F67008CE1EB /* libwebservices_curl.a in Frameworks */,
 				6814F64416F78F64008CE1EB /* libShareServices.a in Frameworks */,
-				6814F63216F78EF5008CE1EB /* libcurl-device.a in Frameworks */,
-				6814F63316F78EF5008CE1EB /* libcurl-simulator.a in Frameworks */,
 				6814F62D16F78EC5008CE1EB /* libDriveController.a in Frameworks */,
 				6814F62C16F78EC1008CE1EB /* libAccountServices.a in Frameworks */,
 				6814F60616F78E5F008CE1EB /* libsqlite3.dylib in Frameworks */,
@@ -612,6 +608,7 @@
 				6814F45A16F781E0008CE1EB /* Foundation.framework in Frameworks */,
 				6814F45C16F781E0008CE1EB /* CoreGraphics.framework in Frameworks */,
 				6814F5EC16F78D71008CE1EB /* FacebookSDK.framework in Frameworks */,
+				F44CC5D119C1FD870048246B /* libcurl.a in Frameworks */,
 				6814F5F116F78DB2008CE1EB /* AdSupport.framework in Frameworks */,
 				6814F5F216F78DB2008CE1EB /* QuartzCore.framework in Frameworks */,
 				6814F5F316F78DB2008CE1EB /* Security.framework in Frameworks */,
@@ -838,8 +835,7 @@
 		6814F60716F78E73008CE1EB /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				6814F63016F78EF5008CE1EB /* libcurl-device.a */,
-				6814F63116F78EF5008CE1EB /* libcurl-simulator.a */,
+				F44CC5D019C1FD870048246B /* libcurl.a */,
 				6814F60516F78E5F008CE1EB /* libsqlite3.dylib */,
 				6814F60316F78E49008CE1EB /* libz.dylib */,
 			);
@@ -1074,6 +1070,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = OneDrive;
+				TargetAttributes = {
+					6814F45216F781E0008CE1EB = {
+						DevelopmentTeam = P4446Z4Y8P;
+					};
+				};
 			};
 			buildConfigurationList = 6814F44D16F781E0008CE1EB /* Build configuration list for PBXProject "OneDrive" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1500,7 +1501,7 @@
 		6814F47E16F781E1008CE1EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ajay Bedi (ZFHUKVNA7F)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../thirdparty/FacebookSDK\"",
@@ -1518,7 +1519,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../thirdparty/libcurl/7.28.1/lib/ios\"",
+					"\"$(SRCROOT)/../../thirdparty/libcurl/7.36.0/lib/ios\"",
 				);
 				OTHER_CFLAGS = (
 					"-x",
@@ -1534,7 +1535,7 @@
 		6814F47F16F781E1008CE1EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ajay Bedi (ZFHUKVNA7F)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../thirdparty/FacebookSDK\"",
@@ -1552,7 +1553,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../thirdparty/libcurl/7.28.1/lib/ios\"",
+					"\"$(SRCROOT)/../../thirdparty/libcurl/7.36.0/lib/ios\"",
 				);
 				OTHER_CFLAGS = (
 					"-x",
