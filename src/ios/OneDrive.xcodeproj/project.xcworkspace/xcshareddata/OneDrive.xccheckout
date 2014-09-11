@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>61544C37-3105-487C-BAAC-0779D7E41663</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OneDrive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
+		<string>http://onedrive.unfuddle.com/svn/onedrive_od</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>trunk2/src/ios/OneDrive.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</key>
+		<string>http://onedrive.unfuddle.com/svn/onedrive_od</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://onedrive.unfuddle.com/svn/onedrive_od/trunk2/src/ios/OneDrive.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7C9B0076-D7DE-47E2-9B21-AFFF8AF25523</string>
+			<key>IDESourceControlWCCName</key>
+			<string>work_onedrive</string>
+		</dict>
+	</array>
+</dict>
+</plist>

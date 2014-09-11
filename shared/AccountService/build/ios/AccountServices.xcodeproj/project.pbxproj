@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356F4623168C1C0000DC11E6 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356F461D168C1C0000DC11E6 /* json_reader.cpp */; };
+		356F4624168C1C0000DC11E6 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356F461F168C1C0000DC11E6 /* json_value.cpp */; };
+		356F4625168C1C0000DC11E6 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 356F4621168C1C0000DC11E6 /* json_writer.cpp */; };
+		35B1109716F0A1BB00A783FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B1109616F0A1BB00A783FE /* UIKit.framework */; };
+		35B1109816F0A1BB00A783FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E11CE0167888C2009C4160 /* Foundation.framework */; };
+		35B1109A16F0A1BB00A783FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B1109916F0A1BB00A783FE /* CoreGraphics.framework */; };
+		35C613B717734D64008404FA /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35C613B617734D64008404FA /* Timer.cpp */; };
+		35C613B917743272008404FA /* SessionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35C613B817743272008404FA /* SessionManager.cpp */; };
+		35CB8856174FD9CB00B70BD4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CB8855174FD9CB00B70BD4 /* MobileCoreServices.framework */; };
+		35E11CE1167888C2009C4160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E11CE0167888C2009C4160 /* Foundation.framework */; };
+		35E11D0D16788AA7009C4160 /* DropboxImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E11D0B16788AA7009C4160 /* DropboxImpl.cpp */; };
+		35E11D671678A826009C4160 /* OAuthDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E11D651678A826009C4160 /* OAuthDialog.cpp */; };
+		35E11D70167F553B009C4160 /* AccountServiceController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35E11D6F167F553B009C4160 /* AccountServiceController.cpp */; };
+		35FEC33D1742A96700C790FF /* SkyDriveImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35FEC33B1742A96700C790FF /* SkyDriveImpl.cpp */; };
+		F9DAA61E172CC39800235B6B /* GdriveImpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9DAA61C172CC39800235B6B /* GdriveImpl.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35E11D1B16788AD6009C4160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E11D1416788AD6009C4160 /* webservices_curl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3588B1881675C433000E1813;
+			remoteInfo = webservices_curl;
+		};
+		35E11D1D16788ADE009C4160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E11D1416788AD6009C4160 /* webservices_curl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 3588B1871675C433000E1813;
+			remoteInfo = webservices_curl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35E11CDB167888C2009C4160 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		356F4611168C1BEB00DC11E6 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		356F4612168C1BEB00DC11E6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		356F4613168C1BEB00DC11E6 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		356F4614168C1BEB00DC11E6 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		356F4615168C1BEB00DC11E6 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		356F4616168C1BEB00DC11E6 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		356F4617168C1BEB00DC11E6 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		356F4618168C1BEB00DC11E6 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		356F461A168C1C0000DC11E6 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		356F461B168C1C0000DC11E6 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		356F461C168C1C0000DC11E6 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		356F461D168C1C0000DC11E6 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		356F461E168C1C0000DC11E6 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
+		356F461F168C1C0000DC11E6 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		356F4620168C1C0000DC11E6 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		356F4621168C1C0000DC11E6 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		356F4622168C1C0000DC11E6 /* sconscript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sconscript; sourceTree = "<group>"; };
+		35B1109516F0A1BB00A783FE /* emptytestapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emptytestapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B1109616F0A1BB00A783FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35B1109916F0A1BB00A783FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35B110DA16F1D49D00A783FE /* NotificationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationManager.h; path = ../../Utils/NotificationManager.h; sourceTree = "<group>"; };
+		35B110DB16F1DD7400A783FE /* NotificationManagerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NotificationManagerImpl.h; path = ../../Utils/NotificationManagerImpl.h; sourceTree = "<group>"; };
+		35C613B41773427B008404FA /* Timer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Timer.h; path = ../../Utils/Timer.h; sourceTree = "<group>"; };
+		35C613B51773470D008404FA /* SessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionManager.h; sourceTree = "<group>"; };
+		35C613B617734D64008404FA /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Timer.cpp; path = ../../Utils/Timer.cpp; sourceTree = "<group>"; };
+		35C613B817743272008404FA /* SessionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SessionManager.cpp; sourceTree = "<group>"; };
+		35CB8855174FD9CB00B70BD4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		35D54D7F17508E5A0093842B /* OAuthDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OAuthDialog.cpp; sourceTree = "<group>"; };
+		35D54D8017508E5A0093842B /* OAuthDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthDialog.h; sourceTree = "<group>"; };
+		35D54D8117508E5A0093842B /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = "<group>"; };
+		35D54D8317508EA10093842B /* AccountUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountUtils.h; sourceTree = "<group>"; };
+		35E11CDD167888C2009C4160 /* libAccountServices.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAccountServices.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		35E11CE0167888C2009C4160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35E11CF51678899F009C4160 /* AccountServices-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AccountServices-Prefix.pch"; sourceTree = "<group>"; };
+		35E11D0B16788AA7009C4160 /* DropboxImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DropboxImpl.cpp; sourceTree = "<group>"; };
+		35E11D0C16788AA7009C4160 /* DropboxImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropboxImpl.h; sourceTree = "<group>"; };
+		35E11D1416788AD6009C4160 /* webservices_curl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = webservices_curl.xcodeproj; path = ../../../WebServices/CurlImpl/build/ios/webservices_curl.xcodeproj; sourceTree = "<group>"; };
+		35E11D4016788ED9009C4160 /* StringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringConstants.h; sourceTree = "<group>"; };
+		35E11D651678A826009C4160 /* OAuthDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OAuthDialog.cpp; sourceTree = "<group>"; };
+		35E11D661678A826009C4160 /* OAuthDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthDialog.h; sourceTree = "<group>"; };
+		35E11D6D167F54E1009C4160 /* AccountServiceInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountServiceInterface.h; path = ../../Interface/AccountServiceInterface.h; sourceTree = "<group>"; };
+		35E11D6E167F5514009C4160 /* AccountServiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AccountServiceController.h; path = ../../Interface/AccountServiceController.h; sourceTree = "<group>"; };
+		35E11D6F167F553B009C4160 /* AccountServiceController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AccountServiceController.cpp; path = ../../Interface/AccountServiceController.cpp; sourceTree = "<group>"; };
+		35FEC33B1742A96700C790FF /* SkyDriveImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SkyDriveImpl.cpp; sourceTree = "<group>"; };
+		35FEC33C1742A96700C790FF /* SkyDriveImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDriveImpl.h; sourceTree = "<group>"; };
+		F9DAA61C172CC39800235B6B /* GdriveImpl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GdriveImpl.cpp; sourceTree = "<group>"; };
+		F9DAA61D172CC39800235B6B /* GdriveImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GdriveImpl.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35B1109216F0A1BB00A783FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B1109716F0A1BB00A783FE /* UIKit.framework in Frameworks */,
+				35B1109816F0A1BB00A783FE /* Foundation.framework in Frameworks */,
+				35B1109A16F0A1BB00A783FE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E11CDA167888C2009C4160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CB8856174FD9CB00B70BD4 /* MobileCoreServices.framework in Frameworks */,
+				35E11CE1167888C2009C4160 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356F460E168C1BC900DC11E6 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				356F4619168C1C0000DC11E6 /* lib_json */,
+				356F460F168C1BEB00DC11E6 /* include */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		356F460F168C1BEB00DC11E6 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				356F4610168C1BEB00DC11E6 /* json */,
+			);
+			name = include;
+			path = ../../../../thirdparty/libjsoncpp/include;
+			sourceTree = "<group>";
+		};
+		356F4610168C1BEB00DC11E6 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				356F4611168C1BEB00DC11E6 /* autolink.h */,
+				356F4612168C1BEB00DC11E6 /* config.h */,
+				356F4613168C1BEB00DC11E6 /* features.h */,
+				356F4614168C1BEB00DC11E6 /* forwards.h */,
+				356F4615168C1BEB00DC11E6 /* json.h */,
+				356F4616168C1BEB00DC11E6 /* reader.h */,
+				356F4617168C1BEB00DC11E6 /* value.h */,
+				356F4618168C1BEB00DC11E6 /* writer.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		356F4619168C1C0000DC11E6 /* lib_json */ = {
+			isa = PBXGroup;
+			children = (
+				356F461A168C1C0000DC11E6 /* json_batchallocator.h */,
+				356F461B168C1C0000DC11E6 /* json_internalarray.inl */,
+				356F461C168C1C0000DC11E6 /* json_internalmap.inl */,
+				356F461D168C1C0000DC11E6 /* json_reader.cpp */,
+				356F461E168C1C0000DC11E6 /* json_tool.h */,
+				356F461F168C1C0000DC11E6 /* json_value.cpp */,
+				356F4620168C1C0000DC11E6 /* json_valueiterator.inl */,
+				356F4621168C1C0000DC11E6 /* json_writer.cpp */,
+				356F4622168C1C0000DC11E6 /* sconscript */,
+			);
+			name = lib_json;
+			path = ../../../../thirdparty/libjsoncpp/src/lib_json;
+			sourceTree = "<group>";
+		};
+		35D54D7E17508E5A0093842B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				35D54D7F17508E5A0093842B /* OAuthDialog.cpp */,
+				35D54D8017508E5A0093842B /* OAuthDialog.h */,
+				35D54D8117508E5A0093842B /* StringConstants.h */,
+				35C613B41773427B008404FA /* Timer.h */,
+				35C613B51773470D008404FA /* SessionManager.h */,
+				35C613B617734D64008404FA /* Timer.cpp */,
+				35C613B817743272008404FA /* SessionManager.cpp */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		35E11CD2167888C1009C4160 = {
+			isa = PBXGroup;
+			children = (
+				35CB8855174FD9CB00B70BD4 /* MobileCoreServices.framework */,
+				35FEC33A1742A96700C790FF /* SkyDriveImpl */,
+				F9DAA61B172CC39800235B6B /* GdriveImpl */,
+				356F460E168C1BC900DC11E6 /* jsoncpp */,
+				35E11D6F167F553B009C4160 /* AccountServiceController.cpp */,
+				35E11D6E167F5514009C4160 /* AccountServiceController.h */,
+				35E11D6D167F54E1009C4160 /* AccountServiceInterface.h */,
+				35E11D0A16788AA7009C4160 /* DropboxImpl */,
+				35E11D3F16788ED9009C4160 /* Common */,
+				35E11D1416788AD6009C4160 /* webservices_curl.xcodeproj */,
+				35E11CF51678899F009C4160 /* AccountServices-Prefix.pch */,
+				35E11CDF167888C2009C4160 /* Frameworks */,
+				35E11CDE167888C2009C4160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35E11CDE167888C2009C4160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E11CDD167888C2009C4160 /* libAccountServices.a */,
+				35B1109516F0A1BB00A783FE /* emptytestapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E11CDF167888C2009C4160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35E11CE0167888C2009C4160 /* Foundation.framework */,
+				35B1109616F0A1BB00A783FE /* UIKit.framework */,
+				35B1109916F0A1BB00A783FE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35E11D0A16788AA7009C4160 /* DropboxImpl */ = {
+			isa = PBXGroup;
+			children = (
+				35E11D0B16788AA7009C4160 /* DropboxImpl.cpp */,
+				35E11D0C16788AA7009C4160 /* DropboxImpl.h */,
+			);
+			name = DropboxImpl;
+			path = ../../DropboxImpl;
+			sourceTree = "<group>";
+		};
+		35E11D1516788AD6009C4160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E11D1C16788AD6009C4160 /* libwebservices_curl.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35E11D3F16788ED9009C4160 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				35D54D7E17508E5A0093842B /* Common */,
+				35E11D4016788ED9009C4160 /* StringConstants.h */,
+				35E11D651678A826009C4160 /* OAuthDialog.cpp */,
+				35E11D661678A826009C4160 /* OAuthDialog.h */,
+				35B110DA16F1D49D00A783FE /* NotificationManager.h */,
+				35B110DB16F1DD7400A783FE /* NotificationManagerImpl.h */,
+				35D54D8317508EA10093842B /* AccountUtils.h */,
+			);
+			name = Common;
+			path = ../../Common;
+			sourceTree = "<group>";
+		};
+		35FEC33A1742A96700C790FF /* SkyDriveImpl */ = {
+			isa = PBXGroup;
+			children = (
+				35FEC33B1742A96700C790FF /* SkyDriveImpl.cpp */,
+				35FEC33C1742A96700C790FF /* SkyDriveImpl.h */,
+			);
+			name = SkyDriveImpl;
+			path = ../../SkyDriveImpl;
+			sourceTree = "<group>";
+		};
+		F9DAA61B172CC39800235B6B /* GdriveImpl */ = {
+			isa = PBXGroup;
+			children = (
+				F9DAA61C172CC39800235B6B /* GdriveImpl.cpp */,
+				F9DAA61D172CC39800235B6B /* GdriveImpl.h */,
+			);
+			name = GdriveImpl;
+			path = ../../GdriveImpl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35B1109416F0A1BB00A783FE /* emptytestapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B110AF16F0A1BB00A783FE /* Build configuration list for PBXNativeTarget "emptytestapp" */;
+			buildPhases = (
+				35B1109116F0A1BB00A783FE /* Sources */,
+				35B1109216F0A1BB00A783FE /* Frameworks */,
+				35B1109316F0A1BB00A783FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = emptytestapp;
+			productName = emptytestapp;
+			productReference = 35B1109516F0A1BB00A783FE /* emptytestapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35E11CDC167888C2009C4160 /* AccountServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35E11CEB167888C2009C4160 /* Build configuration list for PBXNativeTarget "AccountServices" */;
+			buildPhases = (
+				35E11CD9167888C2009C4160 /* Sources */,
+				35E11CDA167888C2009C4160 /* Frameworks */,
+				35E11CDB167888C2009C4160 /* CopyFiles */,
+				35E11D6A1678C953009C4160 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35E11D1E16788ADE009C4160 /* PBXTargetDependency */,
+			);
+			name = AccountServices;
+			productName = AccountServices;
+			productReference = 35E11CDD167888C2009C4160 /* libAccountServices.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35E11CD4167888C1009C4160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ruchin Kansal";
+			};
+			buildConfigurationList = 35E11CD7167888C1009C4160 /* Build configuration list for PBXProject "AccountServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 35E11CD2167888C1009C4160;
+			productRefGroup = 35E11CDE167888C2009C4160 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35E11D1516788AD6009C4160 /* Products */;
+					ProjectRef = 35E11D1416788AD6009C4160 /* webservices_curl.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				35E11CDC167888C2009C4160 /* AccountServices */,
+				35B1109416F0A1BB00A783FE /* emptytestapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		35E11D1C16788AD6009C4160 /* libwebservices_curl.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libwebservices_curl.a;
+			remoteRef = 35E11D1B16788AD6009C4160 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35B1109316F0A1BB00A783FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E11D6A1678C953009C4160 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"Copying ${TARGET_BUILD_DIR}/${EXECUTABLE_PATH} ${PROJECT_DIR}/../../../../output/\"\ncp \"${TARGET_BUILD_DIR}/${EXECUTABLE_PATH}\" \"${PROJECT_DIR}/../../../../output/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35B1109116F0A1BB00A783FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35E11CD9167888C2009C4160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E11D0D16788AA7009C4160 /* DropboxImpl.cpp in Sources */,
+				35E11D671678A826009C4160 /* OAuthDialog.cpp in Sources */,
+				35E11D70167F553B009C4160 /* AccountServiceController.cpp in Sources */,
+				356F4623168C1C0000DC11E6 /* json_reader.cpp in Sources */,
+				356F4624168C1C0000DC11E6 /* json_value.cpp in Sources */,
+				356F4625168C1C0000DC11E6 /* json_writer.cpp in Sources */,
+				F9DAA61E172CC39800235B6B /* GdriveImpl.cpp in Sources */,
+				35FEC33D1742A96700C790FF /* SkyDriveImpl.cpp in Sources */,
+				35C613B717734D64008404FA /* Timer.cpp in Sources */,
+				35C613B917743272008404FA /* SessionManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35E11D1E16788ADE009C4160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = webservices_curl;
+			targetProxy = 35E11D1D16788ADE009C4160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35B110AD16F0A1BB00A783FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emptytestapp/emptytestapp-Prefix.pch";
+				INFOPLIST_FILE = "emptytestapp/emptytestapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35B110AE16F0A1BB00A783FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "emptytestapp/emptytestapp-Prefix.pch";
+				INFOPLIST_FILE = "emptytestapp/emptytestapp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35E11CE9167888C2009C4160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35E11CEA167888C2009C4160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35E11CEC167888C2009C4160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: AMBIKA WARRIER (QMT8ADG264)";
+				DSTROOT = /tmp/AccountServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountServices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../../Interface,
+					../../../WebServices/Interface,
+					../../Common,
+					../../../../thirdparty/libjsoncpp/include,
+					../../../../thirdparty/libjsoncpp/include/json,
+					../../../Utils,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4FF8D285-4C17-41E2-B3C4-A1FD5004F610";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35E11CED167888C2009C4160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: AMBIKA WARRIER (QMT8ADG264)";
+				DSTROOT = /tmp/AccountServices.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AccountServices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../../Interface,
+					../../../WebServices/Interface,
+					../../Common,
+					../../../../thirdparty/libjsoncpp/include,
+					../../../../thirdparty/libjsoncpp/include/json,
+					../../../Utils,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-x",
+					"objective-c++",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4FF8D285-4C17-41E2-B3C4-A1FD5004F610";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B110AF16F0A1BB00A783FE /* Build configuration list for PBXNativeTarget "emptytestapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35B110AD16F0A1BB00A783FE /* Debug */,
+				35B110AE16F0A1BB00A783FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E11CD7167888C1009C4160 /* Build configuration list for PBXProject "AccountServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E11CE9167888C2009C4160 /* Debug */,
+				35E11CEA167888C2009C4160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35E11CEB167888C2009C4160 /* Build configuration list for PBXNativeTarget "AccountServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E11CEC167888C2009C4160 /* Debug */,
+				35E11CED167888C2009C4160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35E11CD4167888C1009C4160 /* Project object */;
+}

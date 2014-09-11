@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ShareServices' target in the 'ShareServices' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

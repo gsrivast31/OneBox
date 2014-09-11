@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebServices_Curl", "WebServices_Curl.vcxproj", "{8CD3ADBB-1ABF-452A-AFD8-C0A366575234}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProject", "TestProject\TestProject.vcxproj", "{A0C23655-9E25-4653-A84B-8FD3D774A505}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8CD3ADBB-1ABF-452A-AFD8-C0A366575234} = {8CD3ADBB-1ABF-452A-AFD8-C0A366575234}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CD3ADBB-1ABF-452A-AFD8-C0A366575234}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8CD3ADBB-1ABF-452A-AFD8-C0A366575234}.Debug|Win32.Build.0 = Debug|Win32
+		{8CD3ADBB-1ABF-452A-AFD8-C0A366575234}.Release|Win32.ActiveCfg = Release|Win32
+		{8CD3ADBB-1ABF-452A-AFD8-C0A366575234}.Release|Win32.Build.0 = Release|Win32
+		{A0C23655-9E25-4653-A84B-8FD3D774A505}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0C23655-9E25-4653-A84B-8FD3D774A505}.Debug|Win32.Build.0 = Debug|Win32
+		{A0C23655-9E25-4653-A84B-8FD3D774A505}.Release|Win32.ActiveCfg = Release|Win32
+		{A0C23655-9E25-4653-A84B-8FD3D774A505}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

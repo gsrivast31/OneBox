@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DC68A501680B2F200A427A5 /* libOneDrive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC68A4F1680B2F200A427A5 /* libOneDrive.a */; };
+		2DC68A521680B46A00A427A5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC68A511680B46A00A427A5 /* libsqlite3.dylib */; };
+		353443BA1675EA4F008376ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353443B91675EA4F008376ED /* UIKit.framework */; };
+		353443BC1675EA4F008376ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353443BB1675EA4F008376ED /* Foundation.framework */; };
+		353443BE1675EA4F008376ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 353443BD1675EA4F008376ED /* CoreGraphics.framework */; };
+		353443C41675EA4F008376ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 353443C21675EA4F008376ED /* InfoPlist.strings */; };
+		353443C61675EA4F008376ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 353443C51675EA4F008376ED /* main.m */; };
+		353443CA1675EA4F008376ED /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 353443C91675EA4F008376ED /* AppDelegate.mm */; };
+		353443CC1675EA4F008376ED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 353443CB1675EA4F008376ED /* Default.png */; };
+		353443CE1675EA4F008376ED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 353443CD1675EA4F008376ED /* Default@2x.png */; };
+		353443D01675EA50008376ED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 353443CF1675EA50008376ED /* Default-568h@2x.png */; };
+		353443D31675EA50008376ED /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 353443D21675EA50008376ED /* ViewController.mm */; };
+		353443D61675EA50008376ED /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353443D41675EA50008376ED /* ViewController_iPhone.xib */; };
+		353443D91675EA50008376ED /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 353443D71675EA50008376ED /* ViewController_iPad.xib */; };
+		35AD371F1677215500E8A178 /* libwebservices_curl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD371E1677215500E8A178 /* libwebservices_curl.a */; };
+		35AD372E1677232B00E8A178 /* libcurl-simulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD372D1677232B00E8A178 /* libcurl-simulator.a */; };
+		35AD37341677238700E8A178 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD37331677238700E8A178 /* libz.dylib */; };
+		35AD37361677239000E8A178 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AD37351677239000E8A178 /* Security.framework */; };
+		35E11D6C1678C9E6009C4160 /* libAccountServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35E11D6B1678C9E6009C4160 /* libAccountServices.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DC68A461680AE7800A427A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC68A421680AE7700A427A5 /* OneDrive.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DC688CB167F2AD000A427A5;
+			remoteInfo = OneDrive;
+		};
+		2DC68A651680C18900A427A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC68A421680AE7700A427A5 /* OneDrive.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DC688CA167F2AD000A427A5;
+			remoteInfo = OneDrive;
+		};
+		35E11D3716788C27009C4160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E11D2C16788C27009C4160 /* AccountServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 35E11CDD167888C2009C4160;
+			remoteInfo = AccountServices;
+		};
+		35E11D411678900F009C4160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35E11D2C16788C27009C4160 /* AccountServices.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 35E11CDC167888C2009C4160;
+			remoteInfo = AccountServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DC68A421680AE7700A427A5 /* OneDrive.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OneDrive.xcodeproj; path = ../../../../build/ios/OneDrive.xcodeproj; sourceTree = "<group>"; };
+		2DC68A481680AED800A427A5 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../../../../App/AppController.h; sourceTree = "<group>"; };
+		2DC68A4F1680B2F200A427A5 /* libOneDrive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libOneDrive.a; path = ../../../../output/libOneDrive.a; sourceTree = "<group>"; };
+		2DC68A511680B46A00A427A5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		353443B51675EA4F008376ED /* TestWebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		353443B91675EA4F008376ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		353443BB1675EA4F008376ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		353443BD1675EA4F008376ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		353443C11675EA4F008376ED /* TestWebServices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestWebServices-Info.plist"; sourceTree = "<group>"; };
+		353443C31675EA4F008376ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		353443C51675EA4F008376ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		353443C71675EA4F008376ED /* TestWebServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestWebServices-Prefix.pch"; sourceTree = "<group>"; };
+		353443C81675EA4F008376ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		353443C91675EA4F008376ED /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		353443CB1675EA4F008376ED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		353443CD1675EA4F008376ED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		353443CF1675EA50008376ED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		353443D11675EA50008376ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		353443D21675EA50008376ED /* ViewController.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		353443D51675EA50008376ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		353443D81675EA50008376ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		35AD371E1677215500E8A178 /* libwebservices_curl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libwebservices_curl.a; path = ../../../../output/libwebservices_curl.a; sourceTree = "<group>"; };
+		35AD372D1677232B00E8A178 /* libcurl-simulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcurl-simulator.a"; path = "../../../../thirdparty/libcurl/7.28.1/lib/ios/libcurl-simulator.a"; sourceTree = "<group>"; };
+		35AD37331677238700E8A178 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		35AD37351677239000E8A178 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		35E11CB516787D23009C4160 /* AccountServiceInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AccountServiceInterface.h; path = ../../../AccountService/Interface/AccountServiceInterface.h; sourceTree = "<group>"; };
+		35E11D2C16788C27009C4160 /* AccountServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AccountServices.xcodeproj; path = ../../../AccountService/build/ios/AccountServices.xcodeproj; sourceTree = "<group>"; };
+		35E11D6B1678C9E6009C4160 /* libAccountServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAccountServices.a; path = ../../../../output/libAccountServices.a; sourceTree = "<group>"; };
+		35E11D7116802AA3009C4160 /* ODLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ODLogger.h; path = ../../../../Utils/ODLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		353443B21675EA4F008376ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DC68A521680B46A00A427A5 /* libsqlite3.dylib in Frameworks */,
+				35E11D6C1678C9E6009C4160 /* libAccountServices.a in Frameworks */,
+				35AD37361677239000E8A178 /* Security.framework in Frameworks */,
+				35AD37341677238700E8A178 /* libz.dylib in Frameworks */,
+				35AD372E1677232B00E8A178 /* libcurl-simulator.a in Frameworks */,
+				35AD371F1677215500E8A178 /* libwebservices_curl.a in Frameworks */,
+				353443BA1675EA4F008376ED /* UIKit.framework in Frameworks */,
+				353443BC1675EA4F008376ED /* Foundation.framework in Frameworks */,
+				353443BE1675EA4F008376ED /* CoreGraphics.framework in Frameworks */,
+				2DC68A501680B2F200A427A5 /* libOneDrive.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DC68A431680AE7700A427A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DC68A471680AE7800A427A5 /* libOneDrive.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353443AA1675EA4F008376ED = {
+			isa = PBXGroup;
+			children = (
+				2DC68A421680AE7700A427A5 /* OneDrive.xcodeproj */,
+				35E11D6B1678C9E6009C4160 /* libAccountServices.a */,
+				2DC68A4F1680B2F200A427A5 /* libOneDrive.a */,
+				2DC68A511680B46A00A427A5 /* libsqlite3.dylib */,
+				35E11D2C16788C27009C4160 /* AccountServices.xcodeproj */,
+				35E11CB516787D23009C4160 /* AccountServiceInterface.h */,
+				35AD37351677239000E8A178 /* Security.framework */,
+				35AD37331677238700E8A178 /* libz.dylib */,
+				35AD372D1677232B00E8A178 /* libcurl-simulator.a */,
+				35AD371E1677215500E8A178 /* libwebservices_curl.a */,
+				353443BF1675EA4F008376ED /* TestWebServices */,
+				353443B81675EA4F008376ED /* Frameworks */,
+				353443B61675EA4F008376ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		353443B61675EA4F008376ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				353443B51675EA4F008376ED /* TestWebServices.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		353443B81675EA4F008376ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				353443B91675EA4F008376ED /* UIKit.framework */,
+				353443BB1675EA4F008376ED /* Foundation.framework */,
+				353443BD1675EA4F008376ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		353443BF1675EA4F008376ED /* TestWebServices */ = {
+			isa = PBXGroup;
+			children = (
+				2DC68A481680AED800A427A5 /* AppController.h */,
+				353443C81675EA4F008376ED /* AppDelegate.h */,
+				353443C91675EA4F008376ED /* AppDelegate.mm */,
+				353443D11675EA50008376ED /* ViewController.h */,
+				353443D21675EA50008376ED /* ViewController.mm */,
+				35E11D7116802AA3009C4160 /* ODLogger.h */,
+				353443D41675EA50008376ED /* ViewController_iPhone.xib */,
+				353443D71675EA50008376ED /* ViewController_iPad.xib */,
+				353443C01675EA4F008376ED /* Supporting Files */,
+			);
+			path = TestWebServices;
+			sourceTree = "<group>";
+		};
+		353443C01675EA4F008376ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				353443C11675EA4F008376ED /* TestWebServices-Info.plist */,
+				353443C21675EA4F008376ED /* InfoPlist.strings */,
+				353443C51675EA4F008376ED /* main.m */,
+				353443C71675EA4F008376ED /* TestWebServices-Prefix.pch */,
+				353443CB1675EA4F008376ED /* Default.png */,
+				353443CD1675EA4F008376ED /* Default@2x.png */,
+				353443CF1675EA50008376ED /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35E11D2D16788C27009C4160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35E11D3816788C27009C4160 /* libAccountServices.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		353443B41675EA4F008376ED /* TestWebServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 353443DC1675EA50008376ED /* Build configuration list for PBXNativeTarget "TestWebServices" */;
+			buildPhases = (
+				353443B11675EA4F008376ED /* Sources */,
+				353443B21675EA4F008376ED /* Frameworks */,
+				353443B31675EA4F008376ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DC68A661680C18900A427A5 /* PBXTargetDependency */,
+				35E11D421678900F009C4160 /* PBXTargetDependency */,
+			);
+			name = TestWebServices;
+			productName = TestWebServices;
+			productReference = 353443B51675EA4F008376ED /* TestWebServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		353443AC1675EA4F008376ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ruchin Kansal";
+			};
+			buildConfigurationList = 353443AF1675EA4F008376ED /* Build configuration list for PBXProject "TestWebServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 353443AA1675EA4F008376ED;
+			productRefGroup = 353443B61675EA4F008376ED /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 35E11D2D16788C27009C4160 /* Products */;
+					ProjectRef = 35E11D2C16788C27009C4160 /* AccountServices.xcodeproj */;
+				},
+				{
+					ProductGroup = 2DC68A431680AE7700A427A5 /* Products */;
+					ProjectRef = 2DC68A421680AE7700A427A5 /* OneDrive.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				353443B41675EA4F008376ED /* TestWebServices */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2DC68A471680AE7800A427A5 /* libOneDrive.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOneDrive.a;
+			remoteRef = 2DC68A461680AE7800A427A5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		35E11D3816788C27009C4160 /* libAccountServices.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAccountServices.a;
+			remoteRef = 35E11D3716788C27009C4160 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		353443B31675EA4F008376ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353443C41675EA4F008376ED /* InfoPlist.strings in Resources */,
+				353443CC1675EA4F008376ED /* Default.png in Resources */,
+				353443CE1675EA4F008376ED /* Default@2x.png in Resources */,
+				353443D01675EA50008376ED /* Default-568h@2x.png in Resources */,
+				353443D61675EA50008376ED /* ViewController_iPhone.xib in Resources */,
+				353443D91675EA50008376ED /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		353443B11675EA4F008376ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				353443C61675EA4F008376ED /* main.m in Sources */,
+				353443CA1675EA4F008376ED /* AppDelegate.mm in Sources */,
+				353443D31675EA50008376ED /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DC68A661680C18900A427A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OneDrive;
+			targetProxy = 2DC68A651680C18900A427A5 /* PBXContainerItemProxy */;
+		};
+		35E11D421678900F009C4160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AccountServices;
+			targetProxy = 35E11D411678900F009C4160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		353443C21675EA4F008376ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353443C31675EA4F008376ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		353443D41675EA50008376ED /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353443D51675EA50008376ED /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		353443D71675EA50008376ED /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				353443D81675EA50008376ED /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		353443DA1675EA50008376ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../,
+					../../../Utils/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-x",
+					"objective-c++",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		353443DB1675EA50008376ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					../,
+					../../../Utils/,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-x",
+					"objective-c++",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		353443DD1675EA50008376ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebServices/TestWebServices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../,
+					../../../Utils/,
+					../../../AccountService/Interface,
+					"../../../Storage\"",
+				);
+				INFOPLIST_FILE = "TestWebServices/TestWebServices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../output\"",
+					"\"$(SRCROOT)/../../../../thirdparty/libcurl/7.28.1/lib/ios\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		353443DE1675EA50008376ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestWebServices/TestWebServices-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					../,
+					../../../Utils/,
+					../../../AccountService/Interface,
+					"../../../Storage\"",
+				);
+				INFOPLIST_FILE = "TestWebServices/TestWebServices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../output\"",
+					"\"$(SRCROOT)/../../../../thirdparty/libcurl/7.28.1/lib/ios\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		353443AF1675EA4F008376ED /* Build configuration list for PBXProject "TestWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353443DA1675EA50008376ED /* Debug */,
+				353443DB1675EA50008376ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		353443DC1675EA50008376ED /* Build configuration list for PBXNativeTarget "TestWebServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				353443DD1675EA50008376ED /* Debug */,
+				353443DE1675EA50008376ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 353443AC1675EA4F008376ED /* Project object */;
+}

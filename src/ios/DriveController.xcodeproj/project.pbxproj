@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6814F5A816F78815008CE1EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F5A716F78815008CE1EB /* Foundation.framework */; };
+		6814F5CC16F78970008CE1EB /* ODDataController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6814F5C516F78970008CE1EB /* ODDataController.cpp */; };
+		6814F5CD16F78970008CE1EB /* ODInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6814F5C616F78970008CE1EB /* ODInfo.cpp */; };
+		6814F5CE16F78970008CE1EB /* ODThumbInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6814F5C716F78970008CE1EB /* ODThumbInfo.cpp */; };
+		6814F5D016F78994008CE1EB /* AppController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6814F5CF16F78994008CE1EB /* AppController.cpp */; };
+		6814F5D316F789C6008CE1EB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F5D216F789C6008CE1EB /* FacebookSDK.framework */; };
+		6814F5DF16F78A31008CE1EB /* libShareServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6814F5DC16F789E9008CE1EB /* libShareServices.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6814F5DB16F789E9008CE1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6814F5D416F789E8008CE1EB /* ShareServices.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 350A974516A7E727006A0AC9;
+			remoteInfo = ShareServices;
+		};
+		6814F5DD16F78A28008CE1EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6814F5D416F789E8008CE1EB /* ShareServices.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 350A974416A7E727006A0AC9;
+			remoteInfo = ShareServices;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6814F5A216F78815008CE1EB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6814F5A416F78815008CE1EB /* libDriveController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDriveController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6814F5A716F78815008CE1EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6814F5C516F78970008CE1EB /* ODDataController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ODDataController.cpp; sourceTree = "<group>"; };
+		6814F5C616F78970008CE1EB /* ODInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ODInfo.cpp; sourceTree = "<group>"; };
+		6814F5C716F78970008CE1EB /* ODThumbInfo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ODThumbInfo.cpp; sourceTree = "<group>"; };
+		6814F5C816F78970008CE1EB /* ODDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODDataController.h; path = ../../shared/Storage/ODDataController.h; sourceTree = "<group>"; };
+		6814F5C916F78970008CE1EB /* ODInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODInfo.h; path = ../../shared/Storage/ODInfo.h; sourceTree = "<group>"; };
+		6814F5CA16F78970008CE1EB /* ODThumbInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODThumbInfo.h; path = ../../shared/Storage/ODThumbInfo.h; sourceTree = "<group>"; };
+		6814F5CB16F78970008CE1EB /* ODTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ODTypes.h; path = ../../shared/Storage/ODTypes.h; sourceTree = "<group>"; };
+		6814F5CF16F78994008CE1EB /* AppController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = AppController.cpp; path = ../../shared/App/impl/AppController.cpp; sourceTree = "<group>"; };
+		6814F5D116F7899B008CE1EB /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../../shared/App/AppController.h; sourceTree = "<group>"; };
+		6814F5D216F789C6008CE1EB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../thirdparty/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		6814F5D416F789E8008CE1EB /* ShareServices.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShareServices.xcodeproj; path = ../../shared/ShareServices/build/ios/ShareServices.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6814F5A116F78815008CE1EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6814F5DF16F78A31008CE1EB /* libShareServices.a in Frameworks */,
+				6814F5A816F78815008CE1EB /* Foundation.framework in Frameworks */,
+				6814F5D316F789C6008CE1EB /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6814F59916F78815008CE1EB = {
+			isa = PBXGroup;
+			children = (
+				6814F5C016F788AC008CE1EB /* Shared */,
+				6814F5BF16F78899008CE1EB /* Sources */,
+				6814F5BE16F78891008CE1EB /* Headers */,
+				6814F5BD16F78885008CE1EB /* SubProjects */,
+				6814F5A616F78815008CE1EB /* Frameworks */,
+				6814F5A516F78815008CE1EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6814F5A516F78815008CE1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5A416F78815008CE1EB /* libDriveController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6814F5A616F78815008CE1EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5D216F789C6008CE1EB /* FacebookSDK.framework */,
+				6814F5A716F78815008CE1EB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6814F5BD16F78885008CE1EB /* SubProjects */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5D416F789E8008CE1EB /* ShareServices.xcodeproj */,
+			);
+			name = SubProjects;
+			sourceTree = "<group>";
+		};
+		6814F5BE16F78891008CE1EB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5D116F7899B008CE1EB /* AppController.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		6814F5BF16F78899008CE1EB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5CF16F78994008CE1EB /* AppController.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6814F5C016F788AC008CE1EB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5C316F788D6008CE1EB /* Storage */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		6814F5C316F788D6008CE1EB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5C416F78970008CE1EB /* impl */,
+				6814F5C816F78970008CE1EB /* ODDataController.h */,
+				6814F5C916F78970008CE1EB /* ODInfo.h */,
+				6814F5CA16F78970008CE1EB /* ODThumbInfo.h */,
+				6814F5CB16F78970008CE1EB /* ODTypes.h */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		6814F5C416F78970008CE1EB /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5C516F78970008CE1EB /* ODDataController.cpp */,
+				6814F5C616F78970008CE1EB /* ODInfo.cpp */,
+				6814F5C716F78970008CE1EB /* ODThumbInfo.cpp */,
+			);
+			name = impl;
+			path = ../../shared/Storage/impl;
+			sourceTree = "<group>";
+		};
+		6814F5D516F789E8008CE1EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6814F5DC16F789E9008CE1EB /* libShareServices.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6814F5A316F78815008CE1EB /* DriveController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6814F5B216F78815008CE1EB /* Build configuration list for PBXNativeTarget "DriveController" */;
+			buildPhases = (
+				6814F5A016F78815008CE1EB /* Sources */,
+				6814F5A116F78815008CE1EB /* Frameworks */,
+				6814F5A216F78815008CE1EB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6814F5DE16F78A28008CE1EB /* PBXTargetDependency */,
+			);
+			name = DriveController;
+			productName = DriveController;
+			productReference = 6814F5A416F78815008CE1EB /* libDriveController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6814F59B16F78815008CE1EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = OneDrive;
+			};
+			buildConfigurationList = 6814F59E16F78815008CE1EB /* Build configuration list for PBXProject "DriveController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6814F59916F78815008CE1EB;
+			productRefGroup = 6814F5A516F78815008CE1EB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6814F5D516F789E8008CE1EB /* Products */;
+					ProjectRef = 6814F5D416F789E8008CE1EB /* ShareServices.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6814F5A316F78815008CE1EB /* DriveController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6814F5DC16F789E9008CE1EB /* libShareServices.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libShareServices.a;
+			remoteRef = 6814F5DB16F789E9008CE1EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6814F5A016F78815008CE1EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6814F5CC16F78970008CE1EB /* ODDataController.cpp in Sources */,
+				6814F5CD16F78970008CE1EB /* ODInfo.cpp in Sources */,
+				6814F5CE16F78970008CE1EB /* ODThumbInfo.cpp in Sources */,
+				6814F5D016F78994008CE1EB /* AppController.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6814F5DE16F78A28008CE1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareServices;
+			targetProxy = 6814F5DD16F78A28008CE1EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6814F5B016F78815008CE1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6814F5B116F78815008CE1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6814F5B316F78815008CE1EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DriveController.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../thirdparty/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../thirdparty/libjsoncpp/include/json\"",
+					"\"$(SRCROOT)/../../shared/AccountService/Common\"",
+					"\"$(SRCROOT)/../../shared/AccountService/DropboxImpl\"",
+					"\"$(SRCROOT)/../../shared/Utils\"",
+					"\"$(SRCROOT)/../../shared/AccountService/Interface\"",
+					"\"$(SRCROOT)/../../shared/ShareServices/Interface\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6814F5B416F78815008CE1EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/DriveController.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../thirdparty/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../thirdparty/libjsoncpp/include/json\"",
+					"\"$(SRCROOT)/../../shared/AccountService/Common\"",
+					"\"$(SRCROOT)/../../shared/AccountService/DropboxImpl\"",
+					"\"$(SRCROOT)/../../shared/Utils\"",
+					"\"$(SRCROOT)/../../shared/AccountService/Interface\"",
+					"\"$(SRCROOT)/../../shared/ShareServices/Interface\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6814F59E16F78815008CE1EB /* Build configuration list for PBXProject "DriveController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6814F5B016F78815008CE1EB /* Debug */,
+				6814F5B116F78815008CE1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6814F5B216F78815008CE1EB /* Build configuration list for PBXNativeTarget "DriveController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6814F5B316F78815008CE1EB /* Debug */,
+				6814F5B416F78815008CE1EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6814F59B16F78815008CE1EB /* Project object */;
+}
